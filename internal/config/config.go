@@ -23,7 +23,7 @@ func (c Config) Validate() error {
 }
 
 func (c Config) Print() {
-	log.Info("SERVICE CONFIGURATION\n"+
+	log.Infof("SERVICE CONFIGURATION\n"+
 		"Environment: %v\n"+
 		"Port: %v\n"+
 		"Logs path: %v\n\n"+
