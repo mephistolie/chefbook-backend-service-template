@@ -9,7 +9,7 @@ import (
 )
 
 func Run(cfg *config.Config) {
-	log.Init(*cfg.LogsPath, *cfg.Environment == config.EnvDebug)
+	log.Init(*cfg.LogsPath, *cfg.Environment == config.EnvDev)
 	cfg.Print()
 
 	wait := shutdown.Graceful(context.Background(), 5*time.Second, map[string]shutdown.Operation{})
