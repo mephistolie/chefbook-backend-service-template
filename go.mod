@@ -1,6 +1,6 @@
 module github.com/mephistolie/chefbook-backend-service-template
 
-go 1.25.0
+go 1.26.2
 
 require (
 	github.com/mephistolie/chefbook-backend-common/log v0.6.0
