@@ -21,4 +21,4 @@ This module is the template for new ChefBook backend services.
 
 - Copy this shape when adding a new service.
 - Replace template naming before publishing a new module.
-- Keep domain-specific behavior in the new service, not in this template or `common-lib`.
+- Keep domain-specific behavior in the new service, not in this template or `common`.
