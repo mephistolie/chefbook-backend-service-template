@@ -3,7 +3,7 @@ module github.com/mephistolie/chefbook-backend-service-template
 go 1.26.2
 
 require (
-	github.com/mephistolie/chefbook-backend-common/log v0.6.0
+	github.com/mephistolie/chefbook-backend-common/log v0.7.0
 	github.com/mephistolie/chefbook-backend-common/migrate/sql v0.7.0
 	github.com/mephistolie/chefbook-backend-common/shutdown v0.6.0
 	github.com/peterbourgon/ff/v3 v3.4.0
@@ -19,6 +19,9 @@ require (
 	github.com/jackc/pgx/v5 v5.5.4 // indirect
 	github.com/jackc/puddle/v2 v2.2.1 // indirect
 	github.com/lib/pq v1.12.3 // indirect
+	github.com/mattn/go-colorable v0.1.14 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/rs/zerolog v1.35.1 // indirect
 	github.com/sirupsen/logrus v1.9.4 // indirect
 	golang.org/x/crypto v0.50.0 // indirect
 	golang.org/x/net v0.53.0 // indirect
