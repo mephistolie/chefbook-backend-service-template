@@ -12,6 +12,8 @@ func Run(cfg *config.Config) {
 	log.InitWithService("template", *cfg.LogsPath, *cfg.Environment == config.EnvDev)
 	cfg.Print()
 
-	wait := shutdown.Graceful(context.Background(), 5*time.Second, map[string]shutdown.Operation{})
+	ctx := context.Background()
+
+	wait := shutdown.Graceful(ctx, 5*time.Second, map[string]shutdown.Operation{})
 	<-wait
 }

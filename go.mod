@@ -3,7 +3,7 @@ module github.com/mephistolie/chefbook-backend-service-template
 go 1.26.2
 
 require (
-	github.com/mephistolie/chefbook-backend-common/log v0.7.0
+	github.com/mephistolie/chefbook-backend-common/log v0.8.0
 	github.com/mephistolie/chefbook-backend-common/migrate/sql v0.7.0
 	github.com/mephistolie/chefbook-backend-common/shutdown v0.6.0
 	github.com/peterbourgon/ff/v3 v3.4.0
